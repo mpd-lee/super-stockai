@@ -4,3 +4,4 @@ numpy
 pytz
 requests
 plotly
+yfinance
