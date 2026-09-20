@@ -29,7 +29,7 @@ def check_password():
         st.title("🔒 스나이퍼 시스템 로그인")
         pwd = st.text_input("비밀번호를 입력하세요", type="password")
         if st.button("접속하기"):
-            if pwd == "1234":  # 👈 원하는 비밀번호로 변경하세요
+            if pwd == "5029":  # 👈 원하는 비밀번호로 변경하세요
                 st.session_state["password_correct"] = True
                 st.rerun()
             else:
